@@ -1,0 +1,9 @@
+services:
+  app:
+    image: node:18
+    working_dir: /usr/src/app
+    volumes:
+      - .:/usr/src/app
+    command: sh -c "node scrapers/cal_eprocedure.js && node scrapers/sam_gov.js && node normalize.js && node scrapers/enrich_local.js && node scrapers/alert.js"
+    env_file:
+      - .env

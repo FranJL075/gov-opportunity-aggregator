@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Oportunidad Cal 1",
+    "url": "https://example.com/cal1",
+    "dueDate": "2025-08-25"
+  },
+  {
+    "title": "Oportunidad Cal 2",
+    "url": "https://example.com/cal2",
+    "dueDate": "2025-09-01"
+  }
+]
