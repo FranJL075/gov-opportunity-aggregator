@@ -86,3 +86,5 @@ After generating `enriched.json`, you can import it into Airtable:
 
 - Click **Share view** (top right) → **Create shareable grid view link**  
 - Copy the URL and paste it in `demo_url.txt` in the repo or include it here:
+
+https://airtable.com/appjSu8CuAo6fcBua/shrhVB4K6BC7Y6KEm
