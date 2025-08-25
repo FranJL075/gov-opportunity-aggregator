@@ -1,0 +1,16 @@
+{
+  "opportunities": [
+    {
+      "id": 1,
+      "title": "Contract for IT Services",
+      "agency": "Department of Defense",
+      "postedDate": "2025-08-20"
+    },
+    {
+      "id": 2,
+      "title": "Healthcare Equipment Supply",
+      "agency": "Department of Health",
+      "postedDate": "2025-08-21"
+    }
+  ]
+}
