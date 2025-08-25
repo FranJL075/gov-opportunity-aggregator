@@ -62,3 +62,27 @@ You can view the collected opportunities with a simple dashboard powered by `jso
 ### Run locally
 ```bash
 json-server --watch db.json --port 3000
+
+## 🟢 Airtable – Prioritized Views
+
+After generating `enriched.json`, you can import it into Airtable:
+
+1. Open Airtable → Table `Opportunities` → **Import data** → JSON  
+2. Select `enriched.json`. Fields will map automatically.
+
+### Create Prioritized Views
+
+- **High Priority**
+  - Grid view → Create view → Grid → Name it `High Priority`  
+  - Filter: `Priority = High`  
+  - Sort: `Score (desc)` and `Due Date (asc)`
+
+- **This Week**
+  - Grid view → Create view → Name it `This Week`  
+  - Filter: `Due Date` → is within the next 7 days  
+  - Sort: `Due Date (asc)`
+
+### Shareable Link
+
+- Click **Share view** (top right) → **Create shareable grid view link**  
+- Copy the URL and paste it in `demo_url.txt` in the repo or include it here:
